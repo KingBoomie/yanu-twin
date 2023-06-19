@@ -1,5 +1,19 @@
 # Yanu simulator with isaac sim
 
+## Summary
+*This section is to be filled out by the project manager based on the [summary document](https://docs.google.com/spreadsheets/d/12xi2yOMm-X5PEecgyRe3WEurcSaN9A5z4DHgBacQT6M).*
+
+| Company | [Yanu](https://yanu.ai/) |
+| :--- | :--- |
+| Project Manager | [Project Manager](https://profile.link) |
+| Project Team | [Kristjan Laht](https://github.com/KingBoomie); [Houman Masnavi](https://www.linkedin.com/in/houman-masnavi/?originalSubdomain=ee) |
+| Challenge Tackled | 3d model optimization;  |
+| Technology Used | nvidia isaac robot simulator |
+| Lessons Learned | link explains well how sim and real are two very very different environments https://cfvod.kaltura.com//api_v3//index.php//service//attachment_attachmentAsset//action//serve//attachmentAssetId//1_0c9c81g7//ks//djJ8MjkzNTc3MXxEgkLwxL1prkl_vPyZp8uOVHRh4OkIyYSQh5bkF9LPXFHSVaogGkeoPYMNmtz8zYTxjMwFzeQRvofwuPSAJeCYNarZmBMSc0anFEnczRLLZqU7YWjx11mchibaSnYLoWpXwkvekMDI6kuLzZxNBEmsuBRfnlFpWSctMWo8_Xg-pTeLdbEe23LxDHXnwAi806BdanyAptcmZFr5ykD6PUPu |
+| Result Published |  |
+| Target Group |  |
+| Diagrams/Photos |  |
+| Video |  |
 
 
 ## Installation
