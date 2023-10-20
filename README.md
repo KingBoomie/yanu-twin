@@ -18,7 +18,7 @@
 
 ## Installation
 
-1. Follow the instructions [here](https://docs.omniverse.nvidia.com/app_isaacsim/app_isaacsim/install_container.html) to 
+1. Follow the instructions [here](https://docs.omniverse.nvidia.com/isaacsim/latest/installation/install_container.html) to 
 get the isaac container. 
 
 2. Get an interactive shell in the container:
@@ -42,8 +42,8 @@ get the isaac container.
 4. git clone this repo to `~/docker/isaac-sim/documents/Kit/apps/Isaac-Sim/scripts`:
 ```bash
 cd ~/docker/isaac-sim/documents/Kit/apps/Isaac-Sim/scripts
-git clone TODO
-cd repo
+git clone https://github.com/KingBoomie/yanu-twin
+cd yanu-twin
 ```
 
 5. start roscore `source /opt/ros/noetic/setup.zsh && roscore`
@@ -51,6 +51,24 @@ cd repo
 6. in the container shell, run the script with the command:
 ```bash
 source /opt/ros/noetic/setup.zsh && source ~/dev/yanu-workspace/devel/setup.zsh
-./python.sh /root/Documents/Kit/apps/Isaac-Sim/scripts/repo/yanu.py
+./python.sh /root/Documents/Kit/apps/Isaac-Sim/scripts/yanu-twin/import_robot.py
+```
+
+7. in shells 3,4 and 5, start the yanu nodes
+
+```bash
+source /opt/ros/noetic/setup.zsh && source ~/dev/yanu-workspace/devel/setup.zsh
+roslaunch yanu_3_moveit_config demo.launch
+```
+
+
+```bash
+source /opt/ros/noetic/setup.zsh && source ~/dev/yanu-workspace/devel/setup.zsh
+rosrun robobar_engine yanu_docker_server                                                                                                               ─╯
+```
+
+```bash
+source /opt/ros/noetic/setup.zsh && source ~/dev/yanu-workspace/devel/setup.zsh
+rosrun robobar_engine yanu_client
 ```
 
