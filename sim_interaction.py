@@ -207,7 +207,7 @@ class SimInteraction:
 
         # enable mass modification
         mass_api = UsdPhysics.MassAPI.Apply(glass_instance)
-        mass_api.CreateMassAttr(0.234)
+        mass_api.CreateMassAttr(3)
 
         utils.setRigidBody(glass_instance, "convexHull", False)
 

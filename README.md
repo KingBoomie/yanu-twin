@@ -64,7 +64,7 @@ roslaunch yanu_3_moveit_config demo.launch
 
 ```bash
 source /opt/ros/noetic/setup.zsh && source ~/dev/yanu-workspace/devel/setup.zsh
-rosrun robobar_engine yanu_docker_server                                                                                                               ─╯
+rosrun robobar_engine yanu_docker_server
 ```
 
 ```bash
